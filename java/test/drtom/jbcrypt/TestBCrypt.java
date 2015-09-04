@@ -12,9 +12,9 @@
 // ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 // OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-package org.mindrot.jbcrypt;
+package drtom.jbcrypt;
 
-import org.mindrot.jbcrypt.BCrypt;
+import drtom.jbcrypt.BCrypt;
 import junit.framework.TestCase;
 
 /**
@@ -24,7 +24,7 @@ import junit.framework.TestCase;
  */
 public class TestBCrypt extends TestCase {
 	String test_vectors[][] = {
-			{ "", 
+			{ "",
 			"$2a$06$DCq7YPn5Rq63x1Lad4cll.",
 			"$2a$06$DCq7YPn5Rq63x1Lad4cll.TV4S6ytwfsfvkgY8jIucDrjc8deX1s." },
 			{ "",
@@ -39,7 +39,7 @@ public class TestBCrypt extends TestCase {
 			{ "a",
 			"$2a$06$m0CrhHm10qJ3lXRY.5zDGO",
 			"$2a$06$m0CrhHm10qJ3lXRY.5zDGO3rS2KdeeWLuGmsfGlMfOxih58VYVfxe" },
-			{ "a", 
+			{ "a",
 			"$2a$08$cfcvVd2aQ8CMvoMpP2EBfe",
 			"$2a$08$cfcvVd2aQ8CMvoMpP2EBfeodLEkkFJ9umNEfPD18.hUF62qqlC/V." },
 			{ "a",

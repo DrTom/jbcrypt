@@ -12,7 +12,7 @@
 // ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 // OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-package org.mindrot.jbcrypt;
+package drtom.jbcrypt;
 
 import java.io.UnsupportedEncodingException;
 import java.security.SecureRandom;
@@ -53,7 +53,7 @@ import java.security.SecureRandom;
  * String stronger_salt = BCrypt.gensalt(12)<br />
  * </code>
  * <p>
- * The amount of work increases exponentially (2**log_rounds), so 
+ * The amount of work increases exponentially (2**log_rounds), so
  * each increment is twice as much work. The default log_rounds is
  * 10, and the valid range is 4 to 30.
  *

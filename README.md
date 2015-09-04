@@ -1,3 +1,24 @@
+Fork Notice
+===========
+
+This is a fork of jBCrypt for which there is no official maven release of
+version 0.4 (which is very unfortunate).
+
+The `BCrypt` class is the same as the original org.mindrot version 0.4 (up to
+the wrong version number 0.2 in the comment of the class). However, the
+namespace is changed to `drtom/jbcrypt` in order to avoid clashes.
+
+The jar has been compiled via leiningen/clojure with compatibility options for
+Java 1.7.
+
+Note: I do not recommend using this fork. Without a trustworthy official
+release you might want to consider to roll out your own.
+
+
+Original README
+================
+
+
 jBCrypt is an implementation the OpenBSD Blowfish password hashing
 algorithm, as described in "A Future-Adaptable Password Scheme" by Niels
 Provos and David Mazieres: http://www.openbsd.org/papers/bcrypt-paper.ps
